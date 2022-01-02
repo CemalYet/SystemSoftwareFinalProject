@@ -9,7 +9,7 @@ number of sensors connecting to the sensor gateway is not constant and may chang
 time.
   Working with real embedded sensor nodes is not an option for this assignment. Therefore,
 sensor nodes will be simulated in software
-#SENSOR GATEWAY
+### SENSOR GATEWAY
   The sensor gateway consists of a main process and a log process. The log process is
 started (with fork) as a child process of the main process.
 The main process runs three threads: the connection, the data, and the storage
